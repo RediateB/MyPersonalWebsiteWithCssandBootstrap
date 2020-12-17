@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -20,54 +24,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
 </head>
-<!--
-<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main">
-    <aside class="search-results" id="search">
-        <div class="container">
-            <section class="search-header">
-                <div class="row no-gutters justify-content-between mb-3">
-                    <div class="col-6">
-                        <h1>Search</h1>
-                    </div>
-                    <div class="col-6 col-search-close">
-                        <a href="js-search" href="#">
-                            <i class="fas fa-times-circle text-muted" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </aside>
--->
 <body>
-    
-    <section id="nav">
-        <nav class="navbar navbar-light navbar-expand-md py-2">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks"><span
-            class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarLinks">
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">REDIATE</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="hobbies.html">HOBBIES</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="career.html">CAREER</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">CONTACT</a>
-            </li>
-            <li class="nav-item">
-                <i class="fa fa-search" aria-hidden="true"></i>
-            </li>
-        </ul>
-      </div>
-        </nav>
-      </section>
-      <div class="container">
+    <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+        <div class="container">
+            <a class="navbar-brand" href="/"></a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span>
+                    <i class="fas fa-bars"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <span>REDIATE</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hobbies.html">
+                            <span>HOBBIES</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="career.html">
+                            <span>CAREER</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            <span>CONTACT</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-search" href="#">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>     
+    </nav>
+    <br><br>
+    <section id="about" class="home-section wg-about">
+        <div class="container">
           <div class="row">
               <div class="col-12 col-lg-4">
                   <div id="profile">
@@ -75,37 +74,19 @@
                       <div class="portrait-title">
                           <h2>Rediate Befekadu</h2>
                           <h3>Data Scientist & Professional Educator
-                          <a href="">
+                          <a class="rstudio" href="">
                               <span>RStudio</span>
                           </a>
                           </h3>
                       </div>
-                      <ul class="network-icon" aria-hidden="true">
+                      <ul class="contact-icon" aria-hidden="true">
                           <li>
                               <a href="" target="_blank" rel="noopener">
-                                  <i class="fab fa-twitter big-icon"></i>
+                                  <i class="fas fa-paper-plane big-icon"></i>
                               </a>
                               
                           </li>
                           <li>
-                            <a href="" target="_blank" rel="noopener">
-                                <i class="fab fa-github big-icon"></i>
-                            </a>
-                            
-                        </li>
-                        <li>
-                            <a href="" target="_blank" rel="noopener">
-                                <i class="ai ai-impactstor big-icon"></i>
-                            </a>
-                            
-                        </li>
-                          <li>
-                            <a href="" target="_blank" rel="noopener">
-                                <i class="ai ai-orcid big-icon"></i>
-                            </a>
-                            
-                        </li>
-                        <li>
                             <a href="" target="_blank" rel="noopener">
                                 <i class="fab fa-twitter big-icon"></i>
                             </a>
@@ -113,48 +94,56 @@
                         </li>
                         <li>
                             <a href="" target="_blank" rel="noopener">
-                                <i class="fab fa-fa-linkedin big-icon"></i>
+                                <i class="fab fa-github big-icon"></i>
+                            </a>
+                            
+                        </li>
+                          <li>
+                            <a href="" target="_blank" rel="noopener">
+                                <i class="fab fa-instagram big-icon"></i>
                             </a>
                             
                         </li>
                         <li>
                             <a href="" target="_blank" rel="noopener">
-                                <i class="fab fa-keybase big-icon"></i>
+                                <i class="fab fa-snapchat big-icon"></i>
                             </a>
                             
                         </li>
                         <li>
                             <a href="" target="_blank" rel="noopener">
-                                <i class="ai ai-google-schoolar big-icon"></i>
+                                <i class="fab fa-youtube big-icon"></i>
                             </a>
                             
-                        </li>  
+                        </li>
+                        
                       </ul>
                   </div>
               </div>
               <div class="col-12 col-lg-8">
            <p> I am a PhD data scientist and professional educator
-               at RStudio. I am an international keynote speaker,
-               award-winning educator, and co-author of the book
-                blogdown: Creating Websites with R Markdown. 
+               at RStudio.<br> I am an international keynote speaker,
+               award-winning educator,<br> and co-author of the book
+                blogdown: Creating Websites with R <br>Markdown. 
                 I love creating unique platforms for sharing 
-                knowledge and data-driven insights, from websites
-                 to presentations and everything in between. 
-                 I am known for being a compassionate leader
+                knowledge <br>and data-driven insights, from websites
+                 to presentations and <br>everything in between. 
+                 I am known for being a compassionate <br>leader
                   and enthusiastic collaborator, and for making 
-              user-facing experiences that engage and delight.
+              user-facing<br> experiences that engage and delight.
+              
             </p>
             <div class="row">
             <div class="col-md-5">
               
                   <h3>Interests</h3>
                   <ul class="ul-interests">
-                  <li>A</li>
-                  <li>B</li>
-                  <li>C</li>
-                  <li>D</li>
-                  <li>E</li>
-                  <li>F</li>
+                  <li>knowledge sharing</li>
+                  <li>Mentoring</li>
+                  <li>Data analysis</li>
+                  <li>Data visualization</li>
+                  <li>Machine learning</li>
+                  <li>Literate Programming</li>
               </ul>
               </div>
               <div class="col-md-7">
@@ -162,28 +151,25 @@
               <ul class="ul-edu fa-ul">
                  
                   <li> <i class="fa-li fas fa-graduation-cap"></i> 
-                  <div class="discription">
-                      <p class="course">phd in develop and quaadebcfrhbvhfbv</p>
-                      <p class="institution">aait</p>
-                  </div>
+                  <div class="description"> PhD in Developmental Psychology & Quantitative Methods, 2008
+                    <p class="institution">Vanderbilt University</p></div>
                 </li>
                 <li> <i class="fa-li fas fa-graduation-cap"></i> 
-                    <div class="discription">
-                        <p class="course">phd in develop and quaadebcfrhbvhfbv</p>
-                        <p class="institution">aait</p>
-                    </div>
+                    <div class="description"> PhD in Developmental Psychology & Quantitative Methods, 2008
+                        <p class="institution">Vanderbilt University</p></div>
                   </li>
-                   <li> <i class="fa-li fas fa-graduation-cap"></i> 
-                    <div class="discription">
-                        <p class="course">phd in develop and quaadebcfrhbvhfbv</p>
-                        <p class="institution">aait</p>
-                    </div>
+                  <li> <i class="fa-li fas fa-graduation-cap"></i> 
+                    <div class="description"> PhD in Developmental Psychology & Quantitative Methods, 2008
+                        <p class="institution">Vanderbilt University</p></div>
                   </li>
               </ul>
       </div>
       </div>
       </div>
       </div>
+      </div>
+    </section>
+          
       <section id="slider" class="home-section wg-slider carousel slide pointer-event" data-ride="carousel" data-interval="false">
           <ol class="carousel-indicators">
               <li data-target="#slider" data-slide-to="0" class="active"></li>
@@ -201,28 +187,19 @@
               <li data-target="#slider" data-slide-to="12" class="active"></li>
               <li data-target="#slider" data-slide-to="13" class="active"></li>
           </ol>
-          <div class="carousel-inner">
-              <div class="wg-hero dark carousel-item active" style="height: 325px; background-color: rgb(64,64,64); background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)); min-height: 325px;">
-            <div class="container" style="text-align: center;">
-            <h1 class="hero-title"></h1>
-        <p class="hero-lead" style="margin: 0 auto 0 auto;">
-        I am this this is that that is thsi I am this this is that that is thsi I am this this is that that is thsi</p>
-        </div></div>
-          </div>
-          <div class="carousel-inner">
-            <div class="wg-hero dark carousel-item active" style="height: 325px; background-color: rgb(64,64,64); background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)); min-height: 325px;">
-          <div class="container" style="text-align: center;">
-          <h1 class="hero-title"></h1>
-      <p class="hero-lead" style="margin: 0 auto 0 auto;">
-      I am this this is that that is thsi I am this this is that that is thsi I am this this is that that is thsi</p>
-      </div></div>
-        </div>
+          
+          
         <div class="carousel-inner">
-            <div class="wg-hero dark carousel-item active" style="height: 325px; background-color: rgb(64,64,64); background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)); min-height: 325px;">
+            <div class="wg-hero dark carousel-item active" style=" background-color: rgb(64,64,64); background-image: url(./image/life.jpg); min-height: 325px;">
           <div class="container" style="text-align: center;">
           <h1 class="hero-title"></h1>
-      <p class="hero-lead" style="margin: 0 auto 0 auto;">
-      I am this this is that that is thsi I am this this is that that is thsi I am this this is that that is thsi</p>
+      <p class="hero-lead" style="margin: 0 auto 0 auto; font-size: 20px;">
+      "I am this this is that that is thsi I am this this is that that is thsi I am this this is that that is thsi
+      I am this this is that that is thsi I am this this is that that is thsi I am this this is that that is thsi"
+     </p>
+    <p>  <a href="" class="btn btn-light btn-lg">
+          <i class="fas fa-spa" style="padding-right: 10px;"></i>see
+      </a></p>
       </div></div>
         </div>
         <a class="carousel-control-prev" href="#slider" data-slide="prev">
@@ -234,10 +211,117 @@
             <span class="sr-only">Next</span>
         </a>
       </section>
+      <section id="demo" class="home-section wg-blank" style="padding: 0px 0 20px 0; text-align: center;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Lately</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="posts" class="home-section wg-pages">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4 section-geading">
+                    <h1></h1>
+                    <p>From my blog</p>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <div class="media stream-item">
+                        <div class="media-body">
+                            <h3 class="article-title mb-0 mt-0">
+                                <a href="">Teaching students to talk about data science</a>
+                            </h3>
+                            <div class="article-style">
+                                "how I used self-reflection to boost student learning and engagement."
+                            </div>
+                            <div class="stream-meta article-metadata">
+                                <div class="article-metadata">
+                                    <span class="article-date">
+                                        last update on dec 13,2020
+                                    </span>
+                                    <span class="middot-divider">
+                                        
+                                    </span>
+                                    <span class="article-reading-time">
+                                        11min read
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ml-3">
+                            <a href="">
+                                <img src="./image/life.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="see-all">
+                        <a href="">
+                            see all posts
+                            <i class="fas fa-angle-right">
+
+                            </i>
+                        </a>
+                        <br><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="posts" class="home-section wg-pages">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4 section-geading">
+                    <h1></h1>
+                    <p>From my blog</p>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <div class="media stream-item">
+                        <div class="media-body">
+                            <h3 class="article-title mb-0 mt-0">
+                                <a href="">Teaching students to talk about data science</a>
+                            </h3>
+                            <div class="article-style">
+                                "how I used self-reflection to boost student learning and engagement."
+                            </div>
+                            <div class="stream-meta article-metadata">
+                                <div class="article-metadata">
+                                    <span class="article-date">
+                                        last update on dec 13,2020
+                                    </span>
+                                    <span class="middot-divider">
+                                        
+                                    </span>
+                                    <span class="article-reading-time">
+                                        11min read
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ml-3">
+                            <a href="">
+                                <img src="./image/life.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="see-all">
+                        <a href="">
+                            see all posts
+                            <i class="fas fa-angle-right">
+                                
+                            </i>
+                        </a>
+                        <br><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
       <div class="container">
           <footer class="footer">
               <p class="powered-by">
-                  <a href="">
+                  <a href="" style="text-align: center;">
                       "LICENSE: CC-BY-SA"
                       <br>
                       <i class="fab fa-creative-commons fa-2x"></i>
@@ -272,7 +356,7 @@
               </p>
 
           </footer>
-      </div>
-
+  
+</div>
 </body>
 </html>
