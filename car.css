@@ -1,0 +1,229 @@
+body{
+    background-color: #f0f7fa;
+    margin-top: 100px;
+}
+.nav-link{
+    text-decoration: none;
+}
+.nav-link span{
+    color: rgba(23,42,58);
+}
+.navbar{
+position: fixed;
+text-transform: uppercase;
+font-weight: 450;
+top:0;
+right: 0;
+left: 0;
+z-index: 1030;
+padding: 8rem;
+cursor: pointer;
+height: 100px;
+letter-spacing: .1em;
+font-size: 1em;
+min-height: 100px;
+height: 50px;
+background-color: #f0f7fa;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+
+}
+.navbar-light{
+    font-family: karla,sans-serif;
+    font-weight: 400;
+    line-height: 1.25;
+    text-rendering: optimizeLegibility;
+}
+
+:any-link{
+    cursor: pointer;
+
+}
+.navbar-expand-lg>.container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.navbar-light .navbar-brand {
+    color: #172a3a;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .1em;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    z-index: 1030;
+    display: inline-block;
+    font-size: 1.2rem;
+    line-height: inherit;
+    align-items: center;
+}
+
+.nav-link{
+    color: rgba(23,42,58,.85);
+    padding-right: 0;
+    padding-left: 0;
+    display: block;
+    padding: 1rem;
+}
+.nav-link :hover{
+    color:#06805e;
+    text-decoration: underline;
+}
+a.nav-link{
+    position: relative;
+}
+a{
+    color:#06805e;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+a :hover{
+    color: #06805e;
+    text-decoration: underline;
+   }
+   footer{
+    margin: 4rem 0 0;
+    padding: 2rem 0;
+    width: 100%;
+}
+footer p{
+    font-size: 1rem;
+    text-align: center;
+}
+div{
+    display: block;
+}
+.center-text{
+    text-align: center;
+}
+.mt-0{
+    margin-top: 0;
+}
+.center-text h1{
+    font-weight: 400;
+    letter-spacing: .04em;
+    color: #172a3a;
+    font-size: 2.25rem;
+    font-family: lora;
+    margin-bottom: .5rem;
+    line-height: 1.25;
+}
+.d-none{
+    display: none;
+}
+.project-toolbar{
+    margin-bottom: 2rem;
+}
+.btn-toolbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.btn-group .btn-group-vertical{
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+}
+.btn-toolbar .btn.btn-primary.active{
+    background-color: #044f3a;
+}
+element .style{
+    position: relative;
+    height: 6758.73px;
+    
+}
+.project-container{
+    display: block;
+    overflow: hidden;
+}
+.project-card.project-item{
+    margin: 0 0 20px;
+}
+.isotope-item{
+    z-index: 2;
+}
+.project-card{
+    width: 100%;
+}
+.card{
+    overflow:hidden;
+    text-overflow: ellipsis;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 400px;
+    height: 400px;
+}
+.card .card-img{
+    display: block;
+    position: relative;
+    min-height: 100px;
+}
+.img-responsive{
+    margin: 0 auto;
+}
+img{
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 2px 4px;
+    max-width: 100%;
+    display: block;
+    vertical-align: middle;
+    border-style: none;
+    
+}
+.card .card-text{
+    padding: .75rem 1rem;
+}
+.card-text:last-child{
+    margin-bottom: 0;
+}
+.card h4{
+    font-size: .9rem;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    color: #172a3a;
+    margin-top: 1rem;
+    font-family: lora,sans-serif;
+}
+.card h4 a{
+    color: #000;
+    border-bottom: solid 1px transparent;
+    text-decoration: none;
+}
+.card p:last-child{
+    margin-bottom: 0cm;
+}
+.card .card-text p{
+    color: rgba(0,0,0,.54);
+    font-size: .75rem;
+    margin-top: 0;
+}
+.margin-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+element .style{
+    position: absolute;
+    left: 0px;
+    top:0px
+}
