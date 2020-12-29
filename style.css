@@ -28,6 +28,7 @@ display: flex;
 flex-wrap: wrap;
 align-items: center;
 justify-content: space-between;
+font-family: karla,sans-serif;
 
 }
 .navbar-light{
@@ -35,6 +36,20 @@ justify-content: space-between;
     font-weight: 400;
     line-height: 1.25;
     text-rendering: optimizeLegibility;
+}
+nav#navbar-main.navbar.navbar-light.fixed-top.navbar-expand-lg.py-0{
+    color: #172a3a;
+    font: 18.9px karla,sans-serif;
+    background: #f0f7fa;
+    padding: 0px 21px;
+}
+div#navbar.collapse.navbar-collapse{
+    color: #172a3a;
+    font: 18.9px karla,sans-serif;
+}
+.nav-link span{
+    color: #172a3ad9;
+    font: 18.9px karla,sans-serif;
 }
 
 :any-link{
@@ -73,10 +88,22 @@ justify-content: space-between;
 .nav-link :hover{
     color:#06805e;
     text-decoration: underline;
+    transition: 0.3s ease 0s, left 0.3s ease 0s;
 }
+a:hover:after { 
+    width: 50%; 
+    left: 23%; }
 a.nav-link{
     position: relative;
 }
+@media (max-width: 991.98px)
+.navbar-brand {
+    margin: 0 auto;
+}
+.nav-link a:active{
+    color:#06805e;
+}
+
 
 .fab{
     font-family: "Font Awesome 5 Brands";
@@ -89,13 +116,6 @@ a.nav-link{
 }
 a{
     color:#06805e;
-}
-.container{
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
       .avatar{
@@ -123,65 +143,13 @@ a{
         margin-right: 10px;
         display: inline;
     }
-  .col-12 col-lg-8  p{
-        font-size: 1.2rem;
-        font-family: -apple-system;
-        padding: 1rem;
-        margin: 1rem;
-    }
-    .container{
-        max-width: 1000px;
-        width: 100%;
-        padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    }
-    div{
-        display: block;
-    }
-   .row{
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-   }
-   section{
-       display: block;
-   }
-   .col-12 .col-lg-4 p{
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px
-   }
-   .col-12{
-       max-width: 100%;
-       position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-   }
-   .col-12.col-lg-8 p{
-       padding-top: 30px;
-   }
+
    #profile{
     text-align: center;
     padding: 30px 10px;
     position: relative;
    }
-   .col-md-5 p{
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-   }
-   .col-md-7{
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;   
-   }
+
    .wg-about .avatar{
        width: 200px;
        height: 200px;
@@ -197,11 +165,12 @@ a{
        display: block;
    }
    h2{
-       display: block;
-       margin-block-start: 0.83em;
+    display: block;
+    margin-block-start: 0.83em;
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    font-family: sans-serif;
    }
    .portrait-title h3{
        color: #333;
@@ -280,9 +249,7 @@ a{
     font-size: 2.25rem;
     font-family: lora;
 }
-section{
-    display: block;
-}
+
 .home-section .wg-pages .section-heading p{
     margin-top: 0;
     margin-bottom: 1rem;
@@ -375,3 +342,52 @@ footer p{
     font-size: 1rem;
     text-align: center;
 }
+.ul-interests{
+    box-sizing: border-box;
+    font-family: karla,sans-serif;
+    font-weight: 400;
+    line-height: 26.6805px;
+    list-style-type:disc ;
+}
+h3{
+    color: rgb(23,42,58);
+    font-family: lora,sans-serif;
+    font-size: 20.2125px;
+}
+
+.carousel-indicators .active{
+    opacity: 1;
+}
+.carousel-indicators li{
+    background-color: #06805e80;
+    box-sizing: content-box;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    
+}
+ol.carousel-indicators{
+    margin: 0px 139.698px 21px;
+}
+p.hero-lead {
+    font-family: karla,sans-serif;
+    color: white;
+}
+a.btn.btn-light.btn-lg{
+    color: #044f3a;
+    font: 23.1px lora;
+    background: #f8f9fa;
+    padding: 13.86px 48.51px;
+
+}
+.wg-hero.carousel-item{
+    
+        height: 325px;
+        background-color: rgb(64, 64, 64);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://alison.rbind.io/img/headers/pomegranate.jpg);
+        min-height: 325px;
+    
+}
+

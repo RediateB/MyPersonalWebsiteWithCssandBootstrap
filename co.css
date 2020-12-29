@@ -185,3 +185,13 @@ div{
             padding-left: .45em;
             font-size: 15px;
         }
+        nav#navbar-main.navbar.navbar-light.fixed-top.navbar-expand-lg.py-0{
+            color: #172a3a;
+            font: 18.9px karla,sans-serif;
+            background: #f0f7fa;
+            padding: 0px 21px;
+        }
+        div#navbar.collapse.navbar-collapse{
+            color: #172a3a;
+            font: 18.9px karla,sans-serif;
+        }

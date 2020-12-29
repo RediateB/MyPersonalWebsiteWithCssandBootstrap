@@ -1,0 +1,233 @@
+body{
+    background-color: #f0f7fa;
+    margin-top: 100px;
+}
+.nav-link{
+    text-decoration: none;
+}
+.nav-link span{
+    color: rgba(23,42,58);
+}
+.navbar{
+position: fixed;
+text-transform: uppercase;
+font-weight: 450;
+top:0;
+right: 0;
+left: 0;
+z-index: 1030;
+padding: 8rem;
+cursor: pointer;
+height: 100px;
+letter-spacing: .1em;
+font-size: 1em;
+min-height: 100px;
+height: 50px;
+background-color: #f0f7fa;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+font-family: karla,sans-serif;
+
+}
+.navbar-light{
+    font-family: karla,sans-serif;
+    font-weight: 400;
+    line-height: 1.25;
+    text-rendering: optimizeLegibility;
+}
+nav#navbar-main.navbar.navbar-light.fixed-top.navbar-expand-lg.py-0{
+    color: #172a3a;
+    font: 18.9px karla,sans-serif;
+    background: #f0f7fa;
+    padding: 0px 21px;
+}
+div#navbar.collapse.navbar-collapse{
+    color: #172a3a;
+    font: 18.9px karla,sans-serif;
+}
+.nav-link span{
+    color: #172a3ad9;
+    font: 18.9px karla,sans-serif;
+}
+
+:any-link{
+    cursor: pointer;
+
+}
+.navbar-expand-lg>.container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.navbar-light .navbar-brand {
+    color: #172a3a;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .1em;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    z-index: 1030;
+    display: inline-block;
+    font-size: 1.2rem;
+    line-height: inherit;
+    align-items: center;
+}
+
+.nav-link{
+    color: rgba(23,42,58,.85);
+    padding-right: 0;
+    padding-left: 0;
+    display: block;
+    padding: 1rem;
+}
+.nav-link :hover{
+    color:#06805e;
+    text-decoration: underline;
+    transition: 0.3s ease 0s, left 0.3s ease 0s;
+}
+a:hover:after { 
+    width: 50%; 
+    left: 23%; }
+a.nav-link{
+    position: relative;
+}
+@media (max-width: 991.98px)
+.navbar-brand {
+    margin: 0 auto;
+}
+.nav-link a:active{
+    color:#06805e;
+}
+a{
+    color:#06805e;
+}
+.see-all{
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+.see-all a :hover{
+    color: #06805e;
+    text-decoration: none;
+    transition: .6s ease;
+}
+footer{
+    margin: 4rem 0 0;
+    padding: 2rem 0;
+    width: 100%;
+}
+footer p{
+    font-size: 1rem;
+    text-align: center;
+}
+h1{
+    color: #172a3a;
+    font: 47.25px lora;
+    margin: 21px 0px 10.5px;
+    padding: 0px 0px 50px;
+    text-align: center;
+    letter-spacing: 1.89px;
+    line-height: 59.0625px;
+}
+@media screen and (max-width: 768px)
+.media.stream-item img {
+    max-width: 80px;
+}
+.media.stream-item img {
+    max-width: 150px;
+    height: auto;
+    object-fit: cover;
+}
+img {
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+h3.article-title{
+    color: #172a3a;
+    font: 25.2px lora;
+    font-weight: 400;
+    letter-spacing: 1.008px;
+}
+div.article-style{
+    color: #172a3a;
+    font: 16.8px karla,sans-serif;
+    margin: 2px 0px 0px;
+}
+div.article-metadata{
+    color: #0000008a;
+    font: 14px karla,sans-serif;
+    margin: 0px 0px 15px;
+}
+div.universal-wrapper{
+    color: #172a3a;
+    margin: 0px 11.3333px;
+    padding: 2.1px 21px 0px;
+}
+a.btn-link{
+    color: #004346;
+    padding: 10.5px 15.75px;
+    border: 1px solid ;
+    background-color: #f0f7fa;
+}
+
+.page-item:last-child .page-link {
+ border-top-right-radius: 0;
+ border-bottom-right-radius: 0;
+}
+
+.page-item:first-child .page-link {
+ border-top-left-radius: 0;
+ border-bottom-left-radius: 0;
+}
+.article-title a{
+ color: #151515;
+ 
+}
+.article-title a:hover{
+ color: #06805e;
+ text-decoration: none;
+}
+h1{
+    color:#172a3a;
+    font: 57.25px lora;
+    margin: 21px 0px 10.5px;
+}
+h3.article-title{
+    color: #172a3a;
+    font: 25.2px lora;
+}
+.media.stream-item img {
+    max-width: 150px;
+    height: auto;
+    object-fit: cover;
+}
+
+img {
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+div.article-style{
+    color: #172a3a;
+    font: 16.8px karla,sans-serif;
+    margin: 2px 0px 0px;
+}
+span{
+    color: #0000008a;
+    font: 14px karla,sans-serif;
+}
+a.btn.btn-outline-primary.btn-sm{
+    color: #06805e;
+    font: 5.25px 5.25px 5.25px 0px;
+    padding: 5px 8.4px;
+}
+.btn.btn-outline-primary.my-1.mr-1 {
+    font-size: .8rem;
+}
