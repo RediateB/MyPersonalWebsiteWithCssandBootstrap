@@ -115,3 +115,6 @@ footer p{
 a{
     color:#06805e;
 }
+button.btn-toolbar a{
+    border-radius: 0;
+}

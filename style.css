@@ -114,13 +114,12 @@ a.nav-link{
 a{
     color:#06805e;
 }
+.avatar{
+     width: 50px;
+     height: 10px;
+}
+img{
 
-      .avatar{
-            width: 50px;
-            height: 10px;
-        }
-        img{
-            border-radius: 50%;
             height: 270px;
             max-width: 100%;
             display: block;
@@ -341,7 +340,7 @@ footer p{
 }
 .ul-interests{
     box-sizing: border-box;
-    font-family: karla,sans-serif;
+    font-family: karla;
     font-weight: 400;
     line-height: 26.6805px;
     list-style-type:disc ;
