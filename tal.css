@@ -96,10 +96,7 @@ a:hover:after {
 a.nav-link{
     position: relative;
 }
-@media (max-width: 991.98px)
-.navbar-brand {
-    margin: 0 auto;
-}
+
 .nav-link a:active{
     color:#06805e;
 }
@@ -133,10 +130,7 @@ h1{
     letter-spacing: 1.89px;
     line-height: 59.0625px;
 }
-@media screen and (max-width: 768px)
-.media.stream-item img {
-    max-width: 80px;
-}
+
 .media.stream-item img {
     max-width: 150px;
     height: auto;
