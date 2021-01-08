@@ -86,8 +86,12 @@ a{
     color:#06805e;
 }
 .avatar{
-     width: 50px;
-     height: 10px;
+    height: 270px;
+    width: 270px;
+}
+
+.avatar-square{
+    border-radius: 3px;
 }
 img{
         height: 270px;
@@ -110,14 +114,8 @@ img{
     position: relative;
    }
 
-   .wg-about .avatar{
-       width: 200px;
-       height: 200px;
-   }
-   .avatar{
-       margin: auto;
-       object-fit: cover;
-   }
+  
+  
    img{
        overflow: hidden;
        background: #fff;
@@ -180,10 +178,10 @@ img{
    }
    
    
-   .wg-hero .btn-lg{
+   .on .btn-lg{
        font-size: 1.1rem;
    }
-   .wg-hero .btn{
+   .on .btn{
        padding: .6em 2.1em;
    }
    .btn {
@@ -197,7 +195,7 @@ img{
     text-align: center;
     
 }
-.hero-lead { /*check*/
+.carousel-para { /*check*/
     max-width: 768px;
     font-size: 1.35rem;
     font-family: inherit;
@@ -331,7 +329,7 @@ h3{
 ol.carousel-indicators{
     margin: 0px 139.698px 21px;
 }
-p.hero-lead {
+p.carousel-para {
     font-family: karla,sans-serif;
     color: white;
 }
@@ -342,11 +340,11 @@ a.btn.btn-light.btn-lg{
     padding: 13.86px 48.51px;
 
 }
-.wg-hero.carousel-item{
-    
+.on.item{
+        text-align: center;
         height: 325px;
         background-color: rgb(64, 64, 64);
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://alison.rbind.io/img/headers/pomegranate.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./image/background.jpg);
         min-height: 325px;
     
 }
