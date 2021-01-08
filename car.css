@@ -118,3 +118,12 @@ a{
 button.btn-toolbar a{
     border-radius: 0;
 }
+.collapse{
+    background-color:#f0f7fa;
+    text-align: center;
+    width: 100%;
+    
+}
+.navbar-light .navbar-toggler{
+    color: #172a3a;
+}
