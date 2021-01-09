@@ -195,7 +195,7 @@ img{
     text-align: center;
     
 }
-.carousel-para { /*check*/
+.carousel-para { 
     max-width: 768px;
     font-size: 1.35rem;
     font-family: inherit;
@@ -333,6 +333,9 @@ p.carousel-para {
     font-family: karla,sans-serif;
     color: white;
 }
+p.carousel-para{
+    margin: 0;
+}
 a.btn.btn-light.btn-lg{
     color: #044f3a;
     font: 23.1px lora;
@@ -340,13 +343,29 @@ a.btn.btn-light.btn-lg{
     padding: 13.86px 48.51px;
 
 }
-.on.item{
+.carousel-item.a{
         text-align: center;
         height: 325px;
         background-color: rgb(64, 64, 64);
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./image/background.jpg);
-        min-height: 325px;
-    
+        background-size: 100% 100%;
+        min-height: 325px;   
+}
+.carousel-item.b{
+        text-align: left;
+        height: 325px;
+        background-color: rgb(64, 64, 64);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./image/bac2.jpg);
+        background-size: 100% 100%;
+        min-height: 325px;  
+}
+.carousel-item.c{
+    text-align: right;
+    height: 325px;
+    background-color: rgb(64, 64, 64);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./image/bac3.jpg);
+    background-size: 100% 100%;
+    min-height: 325px;  
 }
 .collapse{
     background-color:#f0f7fa;
@@ -359,4 +378,7 @@ a.btn.btn-light.btn-lg{
 }
 .blog:hover{
     color: #151515;
+}
+.ref:hover{
+    color: #06805e;
 }

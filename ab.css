@@ -214,3 +214,9 @@ button.btn.btn-outline-primary{
     line-height: inherit;
     align-items: center;
 }
+.blog:hover{
+    color: #151515;
+}
+.navbar-brand:hover{
+    color: #06805e;
+}

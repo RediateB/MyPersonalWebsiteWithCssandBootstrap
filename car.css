@@ -96,10 +96,6 @@ a:hover:after {
 a.nav-link{
     position: relative;
 }
-@media (max-width: 991.98px)
-.navbar-brand {
-    margin: 0 auto;
-}
 .nav-link a:active{
     color:#06805e;
 }
@@ -127,3 +123,38 @@ button.btn-toolbar a{
 .navbar-light .navbar-toggler{
     color: #172a3a;
 }
+.card:hover{
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: #fff;
+    
+}
+.container:hover .overlay {
+    opacity: 0.5;
+    
+  }
+  .icon {
+    color: black;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* When you move the mouse over the icon, change color */
+  .fa-user:hover {
+    color: #eee;
+  }
