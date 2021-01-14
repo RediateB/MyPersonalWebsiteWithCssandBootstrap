@@ -2,12 +2,7 @@ body{
     background-color: #f0f7fa;
     margin-top: 100px;
 }
-.nav-link{
-    text-decoration: none;
-}
-.nav-link span{
-    color: rgba(23,42,58);
-}
+
 .navbar{
 position: fixed;
 text-transform: uppercase;
@@ -45,20 +40,29 @@ justify-content: space-between;
     padding-left: 0;
     padding-right: 0;
 }
-.nav-link{
-    color: rgba(23,42,58,.85);
-    padding-right: 0;
-    padding-left: 0;
-    display: block;
-    padding: 1rem;
+
+
+.navbar-light .navbar-brand {
+    color: #172a3a;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .1em;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    z-index: 1030;
+    display: inline-block;
+    font-size: 1.2rem;
+    line-height: inherit;
+    align-items: center;
 }
+
 .nav-link :hover{
     color:#06805e;
-    text-decoration: underline;
+
 }
-a.nav-link{
-    position: relative;
-}
+
 .name>img{
       
     height: 180px;  
@@ -77,14 +81,10 @@ div#navbar.collapse.navbar-collapse{
     font: 18.9px karla,sans-serif;
 }
 
-.nav-link span{
-    color: #172a3ad9;
-    font: 18.9px karla,sans-serif;
-}
-  
   a{
     color:#06805e;
 }
+
 footer{
     margin: 4rem 0 0;
     padding: 2rem 0;
@@ -96,7 +96,6 @@ footer p{
 }
 a :hover{
     color: #06805e;
-    text-decoration: underline;
    }
    div.universal-wrapper.pt-3{
        color: #172a3a;
@@ -112,7 +111,7 @@ a :hover{
        letter-spacing: 1.89px;
        line-height: 59.0625px;
    }
-  
+
    .media.stream-item img {
        max-width: 150px;
        height: auto;
@@ -192,4 +191,25 @@ a :hover{
     font-size: 1.2rem;
     line-height: inherit;
     align-items: center;
+}
+span.sliding-middle-out{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+.sliding-middle-out:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.sliding-middle-out:hover:after {
+    width: 100%;
+    background: #06805e;;
+}
+.nav-item a:hover{
+    text-decoration: none;
 }

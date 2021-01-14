@@ -2,9 +2,7 @@ body{
     background-color: #f0f7fa;
     margin-top: 100px;
 }
-.nav-link{
-    text-decoration: none;
-}
+
 .nav-link span{
     color: rgba(23,42,58);
 }
@@ -12,10 +10,6 @@ body{
 position: fixed;
 text-transform: uppercase;
 font-weight: 450;
-top:0;
-right: 0;
-left: 0;
-z-index: 1030;
 padding: 8rem;
 cursor: pointer;
 height: 100px;
@@ -23,19 +17,8 @@ letter-spacing: .1em;
 font-size: 1em;
 min-height: 100px;
 height: 50px;
-background-color: #f0f7fa;
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: space-between;
 font-family: karla,sans-serif;
 
-}
-.navbar-light{
-    font-family: karla,sans-serif;
-    font-weight: 400;
-    line-height: 1.25;
-    text-rendering: optimizeLegibility;
 }
 nav#navbar-main.navbar.navbar-light.fixed-top.navbar-expand-lg.py-0{
     color: #172a3a;
@@ -47,40 +30,8 @@ div#navbar.collapse.navbar-collapse{
     color: #172a3a;
     font: 18.9px karla,sans-serif;
 }
-.nav-link span{
-    color: #172a3ad9;
-    font: 18.9px karla,sans-serif;
-}
-
 :any-link{
     cursor: pointer;
-
-}
-.navbar-expand-lg>.container{
-    padding-left: 0;
-    padding-right: 0;
-}
-.nav-link{
-    color: rgba(23,42,58,.85);
-    padding-right: 0;
-    padding-left: 0;
-    display: block;
-    padding: 1rem;
-}
-.nav-link :hover{
-    color:#06805e;
-    text-decoration: underline;
-    transition: 0.3s ease 0s, left 0.3s ease 0s;
-}
-a:hover:after { 
-    width: 50%; 
-    left: 23%; }
-a.nav-link{
-    position: relative;
-}
-
-.nav-link a:active{
-    color:#06805e;
 }
 a{
     color:#06805e;
@@ -89,102 +40,85 @@ a{
     height: 270px;
     width: 270px;
 }
-
 .avatar-square{
     border-radius: 3px;
 }
 img{
-        height: 270px;
-        max-width: 100%;
-        display: block;
-        width: 270px;    
+    height: 270px;
+    max-width: 100%;
+    display: block;
+    width: 270px;    
 }
 .big-icon{
-        font-size: 2rem;
+    font-size: 2rem;
           
 }
-       .contact-icon li {
-        margin-right: 10px;
-        display: inline;
-    }
+.contact-icon li {
+    margin-right: 10px;
+    display: inline;
+}
 
-   #profile{
+#profile{
     text-align: center;
     padding: 30px 10px;
     position: relative;
-   }
-
-  
-  
-   img{
-       overflow: hidden;
-       background: #fff;
-       max-width: 100%;
-       display: block;
-   }
+}
+img{
+    overflow: hidden;
+    background: #fff;
+    max-width: 100%;
+    display: block;
+}
    h2{
     display: block;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-family: sans-serif;
-   }
-   .portrait-title h3{ /*check*/
-       color: #333;
-       font-size: 1.75em;
-       font-weight: 300;
-       letter-spacing: .04em;
-       font: lora, sans-serif;
-       line-height: 1.25;
-   }
-   .rstudio a span{  /*check*/
-       color: #06805e;
-       background-color: transparent;
-       text-decoration: none;
-   }
-   a :hover{
+    font-family: Lora,sans-serif;
+}
+.portrait-title h3{
+    color: #333;
+    font-size: 1.75em;
+    font-weight: 300;
+    letter-spacing: .04em;
+    font: lora, sans-serif;
+    line-height: 1.25;
+}
+.vermilion a span{
     color: #06805e;
-    text-decoration: underline;
-   }
-   .col-12  p{
-       margin-top: 0;
-       margin-bottom: 1rem;
-       font-size: 20px;
-   }
-   ul.education li .description p.institution{
-       font-size: .75rem;
-       color: rgba(0, 0, 0, .6);
-   }
-   .description p{
-       display: block;
-       margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-   }
-   ul .education li .description p.course{
-       font-size: .9rem;
-   }
-   .course p{
+    background-color: transparent;
+    text-decoration: none;
+}
+a :hover{
+    color: #06805e;  
+}
+.col-12  p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+ul.education li .description p.institution{
+    font-size: .75rem;
+    color: rgba(0, 0, 0, .6);
+}
+.description p{
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-   }
-   .description div{
-       display: block;
-   }
-   
-   
-   .on .btn-lg{
-       font-size: 1.1rem;
-   }
-   .on .btn{
-       padding: .6em 2.1em;
-   }
-   .btn {
+}
+ul .education li .description p.course{
+    font-size: .9rem;
+}
+
+.description div{
+    display: block;
+}
+.on .btn-lg{
+    font-size: 1.1rem;
+}
+.on .btn{
+    padding: .6em 2.1em;
+}
+.btn {
     font-family: Lora;
     text-transform: lowercase;
     font-style: italic;
@@ -214,27 +148,16 @@ img{
     text-transform: uppercase;
     letter-spacing: .08em;
 }
-.section-heading p{  /*check*/
+.section-heading p{ 
     color: #004346;
     font-weight: 400;
     font-size: 1.1rem;
 }
-.media.stream-item{  /*check*/
+.media.stream-item{
     margin-bottom: 2rem;
-}
-.media{  /*check*/
-    display: flex;
-    align-items: flex-start;
-}
-.media-body{ /*check*/
-    flex: 1;
 }
 .media.media.stream-item .article-title{
     font-size: 1.2rem;
-}
-.mb-0{
-    margin-bottom: 0;
-    margin-top: 0;
 }
 .media.stream-item h3{
     font-weight: 400;
@@ -347,15 +270,17 @@ a.btn.btn-light.btn-lg{
         text-align: center;
         height: 325px;
         background-color: rgb(64, 64, 64);
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./image/background.jpg);
+        background-image: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/image/background.jpg);
         background-size: 100% 100%;
-        min-height: 325px;   
+        min-height: 325px;  
+        
 }
 .carousel-item.b{
         text-align: left;
         height: 325px;
         background-color: rgb(64, 64, 64);
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./image/bac2.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/image/bac2.jpg);
         background-size: 100% 100%;
         min-height: 325px;  
 }
@@ -363,7 +288,7 @@ a.btn.btn-light.btn-lg{
     text-align: right;
     height: 325px;
     background-color: rgb(64, 64, 64);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./image/bac3.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/image/bac3.jpg);
     background-size: 100% 100%;
     min-height: 325px;  
 }
@@ -381,4 +306,34 @@ a.btn.btn-light.btn-lg{
 }
 .ref:hover{
     color: #06805e;
+}
+@media (max-width: 985px){
+    .image-width{
+        margin-left: 3rem;
+        object-fit: cover;
+    }
+}
+span.sliding-middle-out{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+.sliding-middle-out:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.sliding-middle-out:hover:after {
+    width: 100%;
+    background: #06805e;;
+}
+.nav-item a:hover{
+    text-decoration: none;
+}
+.powered-by:hover{
+    color: #004346;
 }

@@ -2,12 +2,8 @@ body{
     background-color: #f0f7fa;
     margin-top: 100px;
 }
-.nav-link{
-    text-decoration: none;
-}
-.nav-link span{
-    color: rgba(23,42,58);
-}
+
+
 .navbar{
 position: fixed;
 text-transform: uppercase;
@@ -47,10 +43,6 @@ div#navbar.collapse.navbar-collapse{
     color: #172a3a;
     font: 18.9px karla,sans-serif;
 }
-.nav-link span{
-    color: #172a3ad9;
-    font: 18.9px karla,sans-serif;
-}
 
 :any-link{
     cursor: pointer;
@@ -78,27 +70,15 @@ div#navbar.collapse.navbar-collapse{
     align-items: center;
 }
 
-.nav-link{
-    color: rgba(23,42,58,.85);
-    padding-right: 0;
-    padding-left: 0;
-    display: block;
-    padding: 1rem;
-}
+
 .nav-link :hover{
     color:#06805e;
-    text-decoration: underline;
-    transition: 0.3s ease 0s, left 0.3s ease 0s;
+    
 }
 a:hover:after { 
     width: 50%; 
     left: 23%; }
-a.nav-link{
-    position: relative;
-}
-.nav-link a:active{
-    color:#06805e;
-}
+
 footer{
     margin: 4rem 0 0;
     padding: 2rem 0;
@@ -126,7 +106,7 @@ button.btn-toolbar a{
 .card:hover{
     box-shadow: 0 0 11px rgba(33, 33, 33, .2);
 }
-.overlay {
+.overlay{
     position: absolute;
     top: 0;
     bottom: 0;
@@ -139,7 +119,7 @@ button.btn-toolbar a{
     background-color: #fff;
     
 }
-.container:hover .overlay {
+.overlay:hover {
     opacity: 0.5;
     
   }
@@ -154,7 +134,28 @@ button.btn-toolbar a{
     text-align: center;
   }
   
-  /* When you move the mouse over the icon, change color */
+  
   .fa-user:hover {
     color: #eee;
   }
+  span.sliding-middle-out{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+.sliding-middle-out:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.sliding-middle-out:hover:after {
+    width: 100%;
+    background: #06805e;;
+}
+.nav-item a:hover{
+    text-decoration: none;
+}
