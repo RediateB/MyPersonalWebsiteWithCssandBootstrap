@@ -191,6 +191,7 @@ span.sliding-middle-out{
 .nav-item a:hover{
     text-decoration: none;
 }
-.powered-by:hover{
-    color: #004346;
+.nav-link span:hover{
+
+    color: #06805e;
 }
